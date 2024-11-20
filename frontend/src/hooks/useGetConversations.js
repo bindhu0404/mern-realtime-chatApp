@@ -12,7 +12,7 @@ const useGetConversations = () => {
             const res = await fetch('/api/users');
             const data = await res.json();
             if(data.error) {
-                throw new Error(data.error)
+                throw new Error(data.error);
             }
             setConversations(data);
         } catch(error){
@@ -20,11 +20,11 @@ const useGetConversations = () => {
         } finally {
             setLoading(false);
         }
-    }
+    };
 
     getConversations();
   },[]);
   return { loading, conversations };
-}
+};
 
-export default useGetConversations
+export default useGetConversations;

@@ -1,5 +1,5 @@
-import useConversation from "../zustand/useConversation"
 import { useEffect, useState } from "react";
+import useConversation from "../zustand/useConversation"
 import toast from "react-hot-toast";
   
 const useGetMessages = () => {
@@ -25,7 +25,7 @@ const useGetMessages = () => {
 
     },[selectedConversation?._id,setMessages]);
 
-    return {messages,loading};
+    return {messages, loading};
 };
 
 export default useGetMessages;

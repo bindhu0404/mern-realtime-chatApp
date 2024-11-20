@@ -21,8 +21,8 @@ export const signup = async (req, res) => {
         const hashedPassword = await bcrypt.hash(password, salt);
         //https://avatar-placeholder.iran.liara.run/
 
-        const boyProfilePic = `https://avatar.iran.liara.run/public/boy?username=${username}`
-        const girlProfilePic = `https://avatar.iran.liara.run/public/girl?username=${username}`
+        const boyProfilePic = `https://avatar.iran.liara.run/public/boy?username=${username}`;
+        const girlProfilePic = `https://avatar.iran.liara.run/public/girl?username=${username}`;
 
         const newUser = new User ({
             fullName,
@@ -77,7 +77,7 @@ export const login = async(req, res) => {
     }
 };
 
-export const logout = (req, res) => {
+export const logout = (_req, res) => {
     try{
         res.cookie("jwt","", {maxAge:0})
         res.status(200).json({message:"Logged out successfully"});
