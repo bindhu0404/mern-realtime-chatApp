@@ -110,33 +110,23 @@ npm start
 
 ### API Endpoints (Overview)
 
-POST   /api/auth/register      - Signup
-POST   /api/auth/login         - Login
-POST   /api/auth/logout        - Logout
-GET    /api/profile/me         - Get user profile (protected)
-POST   /api/conversations      - Create conversation
-GET    /api/conversations      - Get user conversations
-PUT    /api/conversations/:id  - Update conversation
-DELETE /api/conversations/:id  - Delete conversation
-POST   /api/messages           - Send message
-GET    /api/messages/:conversationId - Get messages by conversation
+POST   /api/auth/register      - Signup  
+POST   /api/auth/login         - Login  
+POST   /api/auth/logout        - Logout  
+GET    /api/profile/me         - Get user profile (protected)  
+POST   /api/conversations      - Create conversation  
+GET    /api/conversations      - Get user conversations  
+PUT    /api/conversations/:id  - Update conversation  
+DELETE /api/conversations/:id  - Delete conversation  
+POST   /api/messages           - Send message  
+GET    /api/messages/:conversationId - Get messages by conversation  
 
-### Features
-
-User signup/login/logout with JWT
-Protected dashboard routes
-Real-time messaging with Socket.io
-Online user status display
-Search/filter conversations
-CRUD operations on messages and conversations
-Responsive frontend with React, TailwindCSS, DaisyUI
-Global state management using Zustand
-Error handling on client & server
+---
 
 ## Notes
 
-Backend is modular and scalable for adding new features
-JWT authentication ensures secure access
-Socket.io enables real-time messaging for multiple users
-Frontend is responsive and can be extended with additional pages
-Project structure supports full frontend-backend integration
+Backend is modular and scalable for adding new features  
+JWT authentication ensures secure access  
+Socket.io enables real-time messaging for multiple users  
+Frontend is responsive and can be extended with additional pages  
+Project structure supports full frontend-backend integration  
