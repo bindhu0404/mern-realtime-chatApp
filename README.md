@@ -51,39 +51,6 @@ This project demonstrates a fully integrated frontend and backend with scalable 
 
 ---
 
-## Folder Structure
-
-```
-mern-chat-app/
-├── backend/
-│ ├── models/
-│ │ ├── User.js
-│ │ ├── Message.js
-│ │ └── Conversation.js
-│ ├── routes/
-│ │ ├── auth.js
-│ │ ├── messages.js
-│ │ └── conversations.js
-│ ├── middleware/
-│ │ └── authMiddleware.js
-│ ├── .env
-│ ├── server.js
-│ └── package.json
-├── frontend/
-│ ├── public/
-│ ├── src/
-│ │ ├── components/
-│ │ ├── pages/
-│ │ ├── context/
-│ │ ├── App.js
-│ │ └── index.js
-│ ├── tailwind.config.js
-│ ├── package.json
-│ └── README.md
-└── README.md
-```
-
-
 ### How to Run
 
 Run the backend and frontend locally to test the app.
@@ -121,7 +88,6 @@ DELETE /api/conversations/:id  - Delete conversation
 POST   /api/messages           - Send message  
 GET    /api/messages/:conversationId - Get messages by conversation  
 
----
 
 ## Notes
 
