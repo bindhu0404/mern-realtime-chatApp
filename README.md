@@ -84,7 +84,7 @@ mern-chat-app/
 ```
 
 
-## How to Run
+### How to Run
 
 Run the backend and frontend locally to test the app.
 
@@ -108,7 +108,7 @@ npm start
 # Open in browser at http://localhost:3000
 ```
 
-## API Endpoints (Overview)
+### API Endpoints (Overview)
 
 POST   /api/auth/register      - Signup
 POST   /api/auth/login         - Login
@@ -121,7 +121,7 @@ DELETE /api/conversations/:id  - Delete conversation
 POST   /api/messages           - Send message
 GET    /api/messages/:conversationId - Get messages by conversation
 
-## Features
+### Features
 
 User signup/login/logout with JWT
 Protected dashboard routes
