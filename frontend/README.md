@@ -6,22 +6,22 @@ The project uses **React (Vite)** for fast rendering, **TailwindCSS + DaisyUI** 
 
 ---
 
-## ✅ Features Implemented (Frontend)
+## Features Implemented (Frontend)
 
-✔ User Registration & Login (JWT-based)  
-✔ Protected Dashboard (only after authentication)  
-✔ Real-time messaging with Socket.io-client  
-✔ Online user status display  
-✔ Conversation list + message history view  
-✔ Search & filter chats  
-✔ Responsive UI (mobile & desktop)  
-✔ State management using Zustand  
-✔ API integration with Axios  
-✔ Error handling and form validation
+ User Registration & Login (JWT-based)  
+ Protected Dashboard (only after authentication)  
+ Real-time messaging with Socket.io-client  
+ Online user status display  
+ Conversation list + message history view  
+ Search & filter chats  
+ Responsive UI (mobile & desktop)  
+ State management using Zustand  
+ API integration with Axios  
+ Error handling and form validation
 
 ---
 
-## ✅ Tech Stack (Frontend Only)
+## Tech Stack (Frontend Only)
 
 | Technology       | Purpose |
 |------------------|--------|
